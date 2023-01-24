@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  resources :recipes, only: [:index, :update]
+  resources :recipes
+  get 'latest', to: 'recipes#latest'
 end

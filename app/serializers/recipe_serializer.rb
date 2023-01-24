@@ -1,7 +1,9 @@
 class RecipeSerializer < ActiveModel::Serializer
-  attributes :id, :title, :description, :instruction, :updated_at
+  
+  # include JSONAPI::Serializer
+  attributes :id, :title, :description, :instruction,  :image
 
-  def updated_at
-    object.updated_at.to_date
-  end
+  # def updated_at
+  #   object.updated_at.to_date
+  # end
 end

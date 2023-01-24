@@ -10,7 +10,7 @@ Recipe.create(
   description: 'A healthy breakfast of oats and quinoa with fresh ripe peach. Almond milk makes its suitable for dairy-free and vegan diets.',
   instruction: 'Put the quinoa, oats and cardamom pods in a small saucepan with 250ml water and 100ml of the almond milk. Bring to the boil, then simmer gently for 15 mins, stirring occasionally.
                 Pour in the remaining almond milk and cook for 5 mins more until creamy.
-                Remove the cardamom pods, spoon into bowls or jars, and top with the peaches and maple syrup.'
+                Remove the cardamom pods, spoon into bowls or jars, and top with the peaches and maple syrup.',
 )
 
 Recipe.create(
